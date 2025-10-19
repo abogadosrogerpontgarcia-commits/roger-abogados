@@ -1,0 +1,52 @@
+<nav class="border-b border-[#c7a874] bg-white text-gray-900">
+  <div class="grid max-w-screen-xl items-center justify-between mx-auto px-4 py-3 lg:grid-cols-12">
+    
+    <!-- Logo -->
+    <div class="flex items-center space-x-2 lg:col-span-3 font-bold">
+      <img src="img/roger-icon.png" class="max-w-10" alt="Branding logo">
+      <h5>ROGER ABOGADOS</h5>
+    </div>
+
+    <!-- Botón menú responsive -->
+    <button
+      data-collapse-toggle="navbar-default"
+      type="button"
+      class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#c7a874]"
+      aria-controls="navbar-default"
+      aria-expanded="false"
+    >
+      <span class="sr-only">Abrir menú</span>
+      <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+      </svg>
+    </button>
+
+    <!-- Enlaces e iconos -->
+    <div id="navbar-default" class="hidden lg:col-span-9 lg:flex lg:justify-end">
+      <ul class="flex flex-col lg:flex-row items-center space-y-2 lg:space-y-0 lg:space-x-8 font-medium uppercase">
+        <li>
+          <a href="#" class="block py-2 px-3 hover:text-[#c7a874] transition">Inicio</a>
+        </li>
+        <li>
+          <a href="#about" class="block py-2 px-3 hover:text-[#c7a874] transition">Sobre mí</a>
+        </li>
+        <li>
+          <a href="#services" class="block py-2 px-3 hover:text-[#c7a874] transition">Servicios</a>
+        </li>
+        <li>
+          <a href="#contact" class="block py-2 px-3 hover:text-[#c7a874] transition">Contacto</a>
+        </li>
+
+        <!-- Iconos -->
+        <li class="flex space-x-4 pt-2 lg:pt-0">
+          <a href="https://instagram.com" target="_blank">
+            <ng-icon name="featherInstagram" class="w-6 h-6 text-pink-500 hover:scale-110 transition"></ng-icon>
+          </a>
+          <a href="https://linkedin.com" target="_blank">
+            <ng-icon name="featherLinkedin" class="w-6 h-6 text-blue-700 hover:scale-110 transition"></ng-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
