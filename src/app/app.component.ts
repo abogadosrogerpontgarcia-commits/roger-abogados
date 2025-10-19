@@ -6,8 +6,9 @@ import { initFlowbite } from 'flowbite';
 import { HeroComponent } from './components/hero/hero.component';
 import { PracticeAreasComponent } from './components/practice-areas/practice-areas.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
 
-const TOOLS = [RouterOutlet, ContactFormComponent, HeroComponent, NavbarComponent, FooterComponent, PracticeAreasComponent];
+const TOOLS = [RouterOutlet, AboutMeComponent, ContactFormComponent, HeroComponent, NavbarComponent, FooterComponent, PracticeAreasComponent];
 
 @Component({
   selector: 'app-root',
